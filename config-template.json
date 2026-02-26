@@ -1,0 +1,46 @@
+{
+  "variant": "variant-1-modern",
+  "business": {
+    "name": "Sharp Cuts Barbershop",
+    "tagline": "Where Style Meets Tradition",
+    "phone": "0244123456",
+    "whatsapp": "233244123456",
+    "address": "East Legon, Accra, Ghana",
+    "hours": "Mon-Sat: 9AM-8PM, Sun: 10AM-6PM"
+  },
+  "colors": {
+    "primary": "#1E40AF",
+    "secondary": "#F59E0B"
+  },
+  "services": [
+    {
+      "name": "Premium Haircut",
+      "price": "GH₵50",
+      "description": ""
+    },
+    {
+      "name": "Hot Towel Shave",
+      "price": "GH₵30",
+      "description": ""
+    },
+    {
+      "name": "Beard Trim & Styling",
+      "price": "GH₵25",
+      "description": ""
+    },
+    {
+      "name": "Full Grooming Package",
+      "price": "GH₵100",
+      "description": ""
+    }
+  ],
+  "about": "",
+  "hero": {
+    "title_line1": "Your Style",
+    "title_line2": "Our Passion",
+    "subtitle": "Experience professional grooming at its finest"
+  },
+  "owner": {
+    "name": "Kwame Mensah"
+  }
+}

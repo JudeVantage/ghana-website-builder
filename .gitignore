@@ -21,3 +21,13 @@ npm-debug.log*
 # Editor directories
 .vscode/
 .idea/
+
+# Template build artifacts
+sites/deployed/
+sites/templates/**/node_modules/
+sites/templates/**/.next/
+
+# Preview screenshots (to be generated)
+previews/*.png
+previews/*.jpg
+previews/*.jpeg

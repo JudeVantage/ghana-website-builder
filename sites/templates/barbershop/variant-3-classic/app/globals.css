@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --barber-red: #DC2626;
+    --barber-brown: #8B4513;
+    --classic-bg: #FAF8F3;
+  }
+  
+  body {
+    @apply bg-classic-bg text-classic-text font-sans;
+  }
+}
+
+@layer components {
+  .btn-barber {
+    @apply bg-barber-red hover:bg-red-700 text-white px-8 py-4 rounded-sm font-bold uppercase tracking-wide transition-all duration-300 shadow-lg hover:shadow-xl;
+  }
+  
+  .btn-outline-barber {
+    @apply border-4 border-barber-red text-barber-red hover:bg-barber-red hover:text-white px-8 py-4 rounded-sm font-bold uppercase tracking-wide transition-all duration-300;
+  }
+  
+  .section-padding {
+    @apply py-20 px-4;
+  }
+  
+  .container-classic {
+    @apply max-w-6xl mx-auto;
+  }
+  
+  .barber-stripe {
+    background: repeating-linear-gradient(
+      45deg,
+      #DC2626,
+      #DC2626 20px,
+      #FFFFFF 20px,
+      #FFFFFF 40px,
+      #1E40AF 40px,
+      #1E40AF 60px
+    );
+  }
+  
+  .vintage-card {
+    @apply bg-classic-card border-4 border-barber-brown shadow-[8px_8px_0px_0px_rgba(139,69,19,0.3)];
+  }
+}
+
+@layer utilities {
+  .text-shadow-classic {
+    text-shadow: 3px 3px 0px rgba(139, 69, 19, 0.3);
+  }
+}

@@ -4,7 +4,8 @@
   "description": "Lead mining and website generation for Ghana web design business",
   "main": "mine-leads.js",
   "scripts": {
-    "mine": "node mine-leads.js"
+    "mine": "node mine-leads.js",
+    "deploy": "node deploy-site.js"
   },
   "keywords": [
     "lead-mining",
@@ -14,6 +15,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
     "dotenv": "^16.0.0",
     "googleapis": "^171.4.0"
   }

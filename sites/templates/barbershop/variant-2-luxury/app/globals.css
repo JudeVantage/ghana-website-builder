@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --gold: #D4AF37;
+    --gold-light: #FFD700;
+    --gold-dark: #B8860B;
+    --luxury-bg: #1A1A1A;
+    --luxury-card: #242424;
+  }
+  
+  body {
+    @apply bg-luxury-bg text-luxury-text;
+  }
+}
+
+@layer components {
+  .btn-gold {
+    @apply bg-gold hover:bg-gold-light text-luxury-bg px-8 py-4 rounded-none font-semibold uppercase tracking-wider transition-all duration-300 shadow-lg shadow-gold/30 hover:shadow-xl hover:shadow-gold/50;
+  }
+  
+  .btn-outline-gold {
+    @apply border-2 border-gold text-gold hover:bg-gold hover:text-luxury-bg px-8 py-4 rounded-none font-semibold uppercase tracking-wider transition-all duration-300;
+  }
+  
+  .section-padding {
+    @apply py-24 px-4;
+  }
+  
+  .container-luxury {
+    @apply max-w-7xl mx-auto;
+  }
+  
+  .gold-gradient {
+    @apply bg-gradient-to-r from-gold-dark via-gold to-gold-light;
+  }
+  
+  .text-gold-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-gold-dark via-gold to-gold-light;
+  }
+}
+
+@layer utilities {
+  .luxury-card {
+    @apply bg-luxury-card border border-gold/20 backdrop-blur-sm;
+  }
+}

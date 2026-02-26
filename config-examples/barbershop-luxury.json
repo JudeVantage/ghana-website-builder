@@ -1,0 +1,46 @@
+{
+  "variant": "variant-2-luxury",
+  "business": {
+    "name": "Elite Cuts",
+    "tagline": "Luxury Grooming Experience",
+    "phone": "0501234567",
+    "whatsapp": "233501234567",
+    "address": "Cantonments, Accra",
+    "hours": "Tue-Sat: 10AM-9PM (By Appointment)"
+  },
+  "colors": {
+    "primary": "#D4AF37",
+    "secondary": "#1A1A1A"
+  },
+  "services": [
+    {
+      "name": "Signature Cut",
+      "price": "GH₵120",
+      "description": ""
+    },
+    {
+      "name": "Royal Shave Experience",
+      "price": "GH₵80",
+      "description": ""
+    },
+    {
+      "name": "Executive Grooming",
+      "price": "GH₵150",
+      "description": ""
+    },
+    {
+      "name": "VIP Package",
+      "price": "GH₵300",
+      "description": ""
+    }
+  ],
+  "about": "",
+  "hero": {
+    "title_line1": "Excellence",
+    "title_line2": "In Every Detail",
+    "subtitle": "Where luxury meets tradition"
+  },
+  "owner": {
+    "name": "Kofi Asante"
+  }
+}

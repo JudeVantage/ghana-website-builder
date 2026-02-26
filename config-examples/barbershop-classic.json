@@ -1,0 +1,46 @@
+{
+  "variant": "variant-3-classic",
+  "business": {
+    "name": "Joe's Barbershop",
+    "tagline": "Classic Cuts Since 2010",
+    "phone": "0277654321",
+    "whatsapp": "233277654321",
+    "address": "Osu, Accra, Ghana",
+    "hours": "Mon-Sat: 8AM-7PM"
+  },
+  "colors": {
+    "primary": "#DC2626",
+    "secondary": "#8B4513"
+  },
+  "services": [
+    {
+      "name": "Classic Haircut",
+      "price": "GH₵35",
+      "description": ""
+    },
+    {
+      "name": "Traditional Shave",
+      "price": "GH₵25",
+      "description": ""
+    },
+    {
+      "name": "Beard Trim",
+      "price": "GH₵20",
+      "description": ""
+    },
+    {
+      "name": "Father & Son Special",
+      "price": "GH₵60",
+      "description": ""
+    }
+  ],
+  "about": "",
+  "hero": {
+    "title_line1": "Real Cuts",
+    "title_line2": "Real Men",
+    "subtitle": "Your neighborhood barbershop"
+  },
+  "owner": {
+    "name": "Joseph Mensah"
+  }
+}
