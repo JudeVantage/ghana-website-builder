@@ -1,0 +1,26 @@
+{
+  "name": "le-petit-oiseau",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.21",
+    "framer-motion": "^11.15.0",
+    "next": "^14.2.35",
+    "postcss": "^8.5.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.18",
+    "@types/node": "^22.13.9",
+    "@types/react": "^18.3.21",
+    "tailwindcss": "^4.1.18",
+    "typescript": "^5.7.3"
+  }
+}

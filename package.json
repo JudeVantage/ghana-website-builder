@@ -1,0 +1,20 @@
+{
+  "name": "ghana-website-builder",
+  "version": "1.0.0",
+  "description": "Lead mining and website generation for Ghana web design business",
+  "main": "mine-leads.js",
+  "scripts": {
+    "mine": "node mine-leads.js"
+  },
+  "keywords": [
+    "lead-mining",
+    "website-builder",
+    "ghana"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "googleapis": "^171.4.0"
+  }
+}

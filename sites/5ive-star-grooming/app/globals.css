@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-black text-white;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-bronze-light via-gold to-gold-dark bg-clip-text text-transparent;
+  }
+  
+  .primary-border {
+    @apply border-primary;
+  }
+  
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+  
+  .kente-border {
+    background: repeating-linear-gradient(
+      90deg,
+      #DC2626 0px,
+      #DC2626 4px,
+      #FBBF24 4px,
+      #FBBF24 8px,
+      #16A34A 8px,
+      #16A34A 12px,
+      transparent 12px,
+      transparent 16px
+    );
+    height: 4px;
+  }
+  
+  .kente-border-vertical {
+    background: repeating-linear-gradient(
+      0deg,
+      #DC2626 0px,
+      #DC2626 4px,
+      #FBBF24 4px,
+      #FBBF24 8px,
+      #16A34A 8px,
+      #16A34A 12px,
+      transparent 12px,
+      transparent 16px
+    );
+    width: 4px;
+  }
+  
+  .star-glow {
+    filter: drop-shadow(0 0 8px rgba(212, 175, 55, 0.6));
+  }
+}
